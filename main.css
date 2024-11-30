@@ -1,0 +1,97 @@
+/* Thiết lập cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 245, 245); /* Màu nền nhẹ nhàng */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Phần tiêu đề */
+.header {
+    background-color:#B84800;
+    color:#FAD232;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+.header h1 {
+    font-size: 2rem;
+}
+.header:hover{
+    background-color:#d4580a;
+
+}
+
+
+/* Phần giới thiệu */
+.about {
+    text-align: center;
+    background-color:#B84800;
+}
+.about h2 {
+    color:#FAD232;
+    font-size: 1.8rem;
+}
+.about p{
+    color: white;
+}
+.about:hover{
+    background-color:#d4580a;
+
+}
+/* Danh sách sách */
+.book-list {
+    background-color:#B84800;
+}
+.book-list img {
+    width: 186px;
+    height: 272px;
+}
+.book-list h2 {
+    color:#FAD232;
+    text-align: center;
+}
+
+.book-list ul{
+    text-align: center;
+    list-style: none;
+}
+.book-list ul li {
+    font-weight: 500;
+}
+.book-list ul li:hover{
+    color:rgb(0, 255, 195);
+}
+
+.book-list:hover{
+    background-color:#d4580a;
+
+}
+
+/* Phần sự kiện */
+.event {
+    background-color:#B84800;
+}
+.event h2 {
+    color:#FAD232;
+    text-align: center;
+}
+.event p {
+    color:white;
+    text-align: center;
+}
+.event:hover{
+    background-color:#d4580a;
+}
+button {
+    color:white;
+    background-color: #d5be63; /* Xanh lá */
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#FAD232; /* Xanh đậm hơn khi hover */
+}
